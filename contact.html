@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gardens | Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-container">
+            <div class="logo-area">
+                <div class="logo-placeholder">[LOGO: GARDENS]</div>
+                <span class="logo-text">GARDENS ECO</span>
+            </div>
+            <button class="mobile-menu-btn" id="menuToggle" aria-label="Menu">MENU</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="boxes.html">BOXES</a></li>
+                <li><a href="activities.html">ACTIVITIES</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>Contact Gardens</h1>
+                <p class="subtitle">Have questions about custom boxes, subscriptions, or gardening advice? Reach out — we reply within 24 hours.</p>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2>Get in touch</h2>
+                        <p><strong>Email:</strong> hello@gardens.com</p>
+                        <p><strong>Phone:</strong> +44 (0)20 1234 5678</p>
+                        <p><strong>Office hours:</strong> Monday to Friday, 9am - 5pm GMT</p>
+                        <div class="contact-note">
+                            <p>For custom box inquiries, please use the form and mention "Custom box" in your message.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inquiry">Inquiry type</label>
+                                <select id="inquiry">
+                                    <option>Custom or corporate box</option>
+                                    <option>Subscription help</option>
+                                    <option>Gardening advice</option>
+                                    <option>General enquiry</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" rows="5" placeholder="Tell us about your dream garden box or ask your gardening question..."></textarea>
+                            </div>
+                            <button type="submit" class="btn">SEND MESSAGE</button>
+                            <p id="formFeedback" class="form-feedback"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Gardens — Sustainable gardening boxes for Europe, Asia and New Zealand.</p>
+            <p class="footer-small">Follow our journey and join our gardening community</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
